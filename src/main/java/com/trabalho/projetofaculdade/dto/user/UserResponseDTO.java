@@ -26,4 +26,5 @@ public class UserResponseDTO {
     private UserTypeEnum UserType;
     private LocalDateTime CreatedAt;
     private Boolean Active;
+
 }

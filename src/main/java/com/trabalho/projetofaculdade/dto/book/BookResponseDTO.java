@@ -10,4 +10,5 @@ public class BookResponseDTO {
     private String Title;
     private int QuantityPages;
     private String Author;
+    private Boolean Available;
 }

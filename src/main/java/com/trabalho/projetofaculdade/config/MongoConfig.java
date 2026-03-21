@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @Configuration
 @EnableJpaRepositories(basePackages = {
         "com.trabalho.projetofaculdade.repository.Book",
-        "com.trabalho.projetofaculdade.repository.User"
+        "com.trabalho.projetofaculdade.repository.User",
+        "com.trabalho.projetofaculdade.repository.Loan"
 })
 @EnableMongoRepositories(basePackages = {
         "com.trabalho.projetofaculdade.repository.Log"

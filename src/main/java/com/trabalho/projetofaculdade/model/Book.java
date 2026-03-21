@@ -39,4 +39,7 @@ public class Book {
 
     @Column(nullable = false)
     private BookGenreEnum Category;
+
+    @Column(nullable = false)
+    private Boolean Available = true;
 }

@@ -61,6 +61,7 @@ public class BookServiceImpl implements BookService {
                     .Publisher(dto.getPublisher())
                     .YearPublish(dto.getYearPublish())
                     .Category(dto.getCategory())
+                    .Available(true)
                     .build();
 
             actionLogService.log("Book", "ADD", "Livro criado com titulo: " + dto.getTitle());
@@ -120,6 +121,7 @@ public class BookServiceImpl implements BookService {
                 .Title(book.getTitle())
                 .QuantityPages(book.getQuantityPages())
                 .Author(book.getAuthor())
+                .Available(book.getAvailable())
                 .build();
     }
 }
