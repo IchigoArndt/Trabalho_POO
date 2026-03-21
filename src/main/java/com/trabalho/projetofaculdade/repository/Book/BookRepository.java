@@ -1,4 +1,4 @@
-package com.trabalho.projetofaculdade.repository;
+package com.trabalho.projetofaculdade.repository.Book;
 
 import com.trabalho.projetofaculdade.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
